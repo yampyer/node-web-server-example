@@ -11,7 +11,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 
-app.use(require('./routes/usuario'));
+//Routes config
+app.use(require('./routes/index'));
 
 mongoose.connect(process.env.URLDB, (error, response) => {
     if (error) throw error;
