@@ -14,7 +14,7 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 // Expiration Time
 // ==========================
 
-process.env.EXPIRATION_TIME = 60 * 60 * 24 * 30;
+process.env.EXPIRATION_TIME = '48h';
 
 // ==========================
 // Secret Seed
